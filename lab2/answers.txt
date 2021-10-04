@@ -1,0 +1,26 @@
+Answers go here!
+
+Problem 1: 
+    249
+    should be invaders[invaderRow][invaderCol] instead of invaders[invaderRow][invaderRow] (later on line 252 invaders[invaderRow][invaderCol] is not initialized)
+    change to invaders[invaderRow][invaderCol]
+
+Problem 2:
+    27
+    There is semicolon at the end of line 27
+    delete that semicolon
+
+Problem 3:
+    62
+    Forgot to increase colIdx in the for loop
+    add ++colIdx
+
+Problem 4:
+    218
+    m and n are reversed for invaders (2&5 vs. 5&2)
+    reverse m and n
+
+Problem 5:
+    113
+    > and < are reversed (when protector's power is more it loses)
+    flip the comparison

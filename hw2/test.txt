@@ -1,0 +1,4 @@
+1 LET A 23
+2 ADD A B
+3 PRINTALL
+5 .

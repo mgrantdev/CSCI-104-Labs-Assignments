@@ -1,0 +1,5 @@
+Name: Muyang Ye
+
+1. Compile the files but do not link them.
+2. With .o files, you only need to recompile the same files if source files have changed. So you don't have to compile every time and they save time.
+3. Everything you want to "monitor" change so that when files in dependencies change, they are recompiled.
