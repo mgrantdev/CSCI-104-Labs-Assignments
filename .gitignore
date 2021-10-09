@@ -53,7 +53,6 @@ ehthumbs_vista.db
 # VSCode
 # https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 .vscode/*
-/*/.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -69,6 +68,3 @@ ehthumbs_vista.db
 *.sublime-workspace
 
 # C++
-*.o
-*.exe
-*.pdf
